@@ -1,0 +1,22 @@
+package pooTarea;
+
+import java.util.ArrayList;
+
+public class Courses {
+	int courseName;
+	String professorName;
+	int year;
+	ArrayList<Student> students = new ArrayList<Student>();
+	
+	public Courses(int courseName, String professorName, int year, ArrayList<Student> students) {
+		super();
+		this.courseName = courseName;
+		this.professorName = professorName;
+		this.year = year;
+		this.students = students;
+	}
+
+	public void enroll(Student student) {
+	students.add(student);
+	}
+}

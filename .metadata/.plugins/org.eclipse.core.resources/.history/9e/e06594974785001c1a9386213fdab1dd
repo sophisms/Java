@@ -1,0 +1,24 @@
+package pooTarea;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Courses {
+	int courseName;
+	String professorName;
+	int year;
+	Student ArrayList;
+	
+	ArrayList<Student> myList = new ArrayList<Student>();
+	myList.add("","",0,0);
+	
+	Collections.sort(myNumbers);
+	
+	for(Integer i: myNumbers) {
+		
+		System.out.println(i);
+	}
+	
+}
+
+

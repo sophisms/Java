@@ -1,0 +1,12 @@
+package funciones;
+
+public class overMethod {
+	
+	static int myMethod(int age) {
+		return age;
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}

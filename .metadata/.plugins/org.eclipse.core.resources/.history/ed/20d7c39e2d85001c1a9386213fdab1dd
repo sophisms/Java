@@ -1,0 +1,9 @@
+package constructors;
+
+public class Main {
+	public static void main(String[] args) {
+		p1 = new Person("Sofia", 24);
+		
+		p1.showData();
+	}
+}

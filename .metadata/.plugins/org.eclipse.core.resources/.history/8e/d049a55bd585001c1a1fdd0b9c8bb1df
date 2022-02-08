@@ -1,0 +1,15 @@
+package pooTarea;
+
+import java.util.ArrayList;
+
+public class Courses {
+	int courseName;
+	String professorName;
+	int year;
+	
+	ArrayList<Student> students = new ArrayList<Student>();
+	
+	public void enroll(Student student) {
+	students.add(student);
+	}
+}

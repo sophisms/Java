@@ -1,0 +1,27 @@
+// Esta clase será nuestra plantilla. Nos ayudará a crear un montón de gatitos
+
+public class Gatito {// Definimos nuestra clase "Gatito". Esta clase nos ayudará a darle características generales a nuestros gatitos
+	
+	// Crear atributos
+	private String nombre; // Variable tipo cadena
+	private String color;
+	private String raza;
+	private int edad;
+	
+	// Constructor
+	public Gatito (String nom, String col, String raz, int ed) {
+		this.nombre = nom;
+		this.color = col;
+		this.raza = raz;
+		this.edad = ed;
+	}
+	
+	public Gatito() {
+		this.nombre=""; // nombre vacío
+		this.color=""; // color vacío
+		this.raza=""; // raza vacía
+		this.edad=0; // edad cero
+	}
+	}
+
+}

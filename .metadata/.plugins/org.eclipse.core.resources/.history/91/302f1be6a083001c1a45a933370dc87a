@@ -1,0 +1,13 @@
+package funciones;
+
+public class ifElseMethod {
+	static void access( ) {
+		if(age<18) {
+			System.out.println("Access denied");
+		}
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}

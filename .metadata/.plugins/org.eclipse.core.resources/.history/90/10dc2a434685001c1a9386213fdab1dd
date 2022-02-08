@@ -1,0 +1,7 @@
+package pooTarea;
+
+public class Courses {
+	int courseName;
+	String professorName;
+	int year;
+}

@@ -1,0 +1,33 @@
+package pooTarea;
+
+public class Student {
+    String firstName;
+    String lastName;
+    int registration;
+    int grade;
+    int year;
+    
+    public void printFullName(){
+    	//TODO implement
+        System.err.println("Name: "+this.firstName+" "+this.lastName);
+     }
+
+     public boolean isApproved(){
+         //TODO implement: should return true if grade >= 60
+    	 if (this.grade>=60) {
+    		 return true;
+    	 }else {
+    		 return false;
+    	 }
+     }
+
+     public int changeYearIfApproved(){
+         //TODO implement: the student should advance to the next year if he/she grade is >= 60
+         // Make year = year + 1, and print "Congratulations" if the student has been approved
+    	 boolean pass = this.isApproved();
+         if (pass)
+        	 this.year += 1;
+         return 0;
+
+     }
+}
